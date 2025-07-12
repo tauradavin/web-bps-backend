@@ -1,17 +1,15 @@
 <?php
 
 return [
-    'paths' => ['api/*'],  // Hanya endpoint API yang diizinkan
-    'allowed_methods' => ['*'],  // Semua metode HTTP diizinkan (GET, POST, PUT, DELETE, dll)
-    
+    'paths' => ['api/*'],
+    'allowed_methods' => ['*'],
     'allowed_origins' => [
-        'http://localhost:5173', // Untuk pengujian lokal
-        'https://web-bps-frontend-topaz.vercel.app', // ← Ganti sesuai domain Vercel kamu
+        'http://localhost:5173',
+        'https://web-bps-frontend-inky.vercel.app', // ← tambahkan ini!
     ],
-    
     'allowed_origins_patterns' => [],
-    'allowed_headers' => ['*'],  // Semua header diizinkan
+    'allowed_headers' => ['*'],
     'exposed_headers' => [],
     'max_age' => 0,
-    'supports_credentials' => true,  // Izinkan pengiriman cookies/token
+    'supports_credentials' => true,
 ];
