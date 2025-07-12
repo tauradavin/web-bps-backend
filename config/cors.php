@@ -5,7 +5,7 @@ return [
     'allowed_methods' => ['*'],
     'allowed_origins' => [
         'http://localhost:5173',
-        'https://web-bps-frontend-inky.vercel.app', // ← tambahkan ini!
+        'https://web-bps-frontend-inky.vercel.app',
     ],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
