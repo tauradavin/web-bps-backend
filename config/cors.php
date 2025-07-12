@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'paths' => ['api/*'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'],
     'allowed_origins' => [
         'http://localhost:5173',
+        'https://web-bps-frontend.vercel.app',
         'https://web-bps-frontend-inky.vercel.app',
     ],
     'allowed_origins_patterns' => [],
