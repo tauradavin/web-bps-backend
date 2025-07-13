@@ -7,7 +7,7 @@ return [
         'http://localhost:5173',
         'https://web-bps-frontend-oabz.vercel.app/'
     ],
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => ['https://.*\.vercel\.app'],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
     'max_age' => 0,
