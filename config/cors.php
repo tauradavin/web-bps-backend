@@ -5,7 +5,7 @@ return [
     'allowed_methods' => ['*'],
     'allowed_origins' => [
         'http://localhost:5173',
-        'https://web-bps-frontend-vert.vercel.app'
+        'https://web-bps-frontend-oabz.vercel.app/'
     ],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
